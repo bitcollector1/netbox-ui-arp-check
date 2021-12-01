@@ -1,4 +1,4 @@
-# netbox-ui-scripts
+# netbox-ui-arp-checker
 
 ### Using NetBox, Nornir and Napalm to query a switch ARP table and compare the results to what is in NetBox
 
