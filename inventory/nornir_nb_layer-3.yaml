@@ -1,0 +1,9 @@
+---
+inventory:
+  plugin: NetBoxInventory2
+  options:
+    ssl_verify: /etc/ssl/certs
+    filter_parameters: {"role": "switch-layer-3", "status": "active" , "tag": "napalm"}
+    
+runner:
+  plugin: serial
